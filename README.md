@@ -5,7 +5,8 @@ This node module represents the function of mangement of books in the Book Libra
 ## Set Up
 1. Create a new file name 'app.js'
 2. import the module with the correct file path 
-    ```const BookSystem = require("./TohChuHuang_BookLibrarySystem.js");
+    ```
+    const BookSystem = require("./TohChuHuang_BookLibrarySystem.js");
     ```
 3. Install dependencies:
     ```
