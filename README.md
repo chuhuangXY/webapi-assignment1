@@ -83,7 +83,7 @@ console.log(BookSystem.borrowBook(borrowBookISBN))
 ```
 1. This will search the book by ISBN and check quantity if is available.
 2. If the quantity is zero, it will display `Book not found.'`
-3. If found, display `Book Title: "bookTitle", ISBN: "bookISBN" has been borrowed.`,
+3. If found, display `Book Title: "bookTitle", ISBN: "bookISBN" has been borrowed.` and quantity will reduce.
 
 ## Function 4 - Change Book Quantity
 Add this code to the app.js to call the function 4
