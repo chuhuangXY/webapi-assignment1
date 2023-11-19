@@ -156,7 +156,7 @@ function removeBook(bookISBN) {
     const removedBook = books.splice(bookIndex, 1)[0];
 
     return {
-        message: `Book "${removedBook.bookTitle}" has been removed.`,
+        message: `Book "${removedBook.bookTitle}" has been completety removed.`,
         bookDetails: removedBook
     };
 }
